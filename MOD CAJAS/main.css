@@ -1,0 +1,58 @@
+.rectangulo{
+
+
+
+    width: 900px;
+    height: 1000px;
+    background:white;
+    position: absolute;
+    display: flex;
+border: 0.1px solid black;
+   
+
+}
+
+
+.cuadrado1{
+    width: 200px;
+    height: 200px;
+    background: #1e4367;
+    margin-bottom: 20px;
+  position: relative;
+  float: left;
+  top: 40px;
+
+
+
+}
+.cuadrado2{
+
+    width: 200px;
+    height: 200px;
+    background: #1e4367;
+    margin-bottom: 20px;
+    position: relative;
+    float: left;
+    top: 40px;
+    left: 140px;
+  
+
+
+}
+
+.cuadrado3{
+
+    width: 200px;
+    height: 200px;
+    background: #1e4367;
+    margin-bottom: 20px;
+   position: relative;
+   float: left;
+   top: 40px;
+   left: 300px;
+
+}
+
+
+
+

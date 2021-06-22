@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font: sans-serif;
+}
+.container{
+    border: 3px solid black;
+    display: flex;
+    max-width: 960px;
+    margin: 0px auto;
+    padding: 22px;
+    flex-direction: column;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 3px solid black;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.into-box{
+    width: 100%;
+    border: 3px solid black;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.into-content{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.into-column{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.column{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    border-style: dashed;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.column-3{
+    border-right: 0;
+}
+.into-box-2{
+    width: 100%;
+    border: 3px solid black;
+    background: linear-gradient(#b6b6b6, #ffffff);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.dynamic-content{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.into-colum-2{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.column-4-5{
+    width: 430px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: dashed;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 3px solid black;
+    align-items: center; 
+}
+
