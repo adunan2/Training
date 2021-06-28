@@ -6,70 +6,83 @@ body{
 }
 .full{
     background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95));
-   
-    display: flex;
+    
     width: 100%;
     height: 720px;
     padding-right: 100px;
     justify-content: center; 
     align-items: center;
+    padding-right: 0px;
 }
 .container{
-    height: 600px;
-    max-width: 1250px;
+    height: 720px;
     display: flex;
     padding: 110px;
-    padding-left: 100px;
+    padding-right: 0px;
+    padding-left: 0px;
     flex-direction: column;
     padding-top: 0px;
+    margin-bottom: 0px;
 }
 a{
     color: black;
-    margin-right: 6px;
+    margin-right: 9px;
 }
 .section1{
     color: white;
     display: flex; 
-    padding-right: 250px; 
+    padding-right: 300px; 
+    padding-left: 110px;
 }
 .new{
     margin-top: 18px;
-    font-size: 14px;
+    font-size: 12px;
 }
-h1{
+
+.box2-2{
     margin-top: 0px;
     margin-bottom: 10px;
-    font-size: 400px;
+    font-size: 45px;
     color: white;
     display: flex;
+
 }
-h2{
+.box2-3{
     margin-top: 0px;
-    font-size: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+
+}
+.section1-1{
+    margin-top: 0px;
+    font-size: 30px;
     color: white;
 }
 h3{
-    font-size: 22px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     color: white;
 }
 h4{
     margin-bottom: 10px;
-    font-size: 20px;
     color: white;
 }
 h5{
     color: black;
     font-size: 20%;
 }
-h6{
+.section3-2-1{
     color: rgb(105, 104, 104);
     margin-top: 2px;
-    
+    font-size: 14px;
+}
+.section3-3{
+    color: rgb(105, 104, 104);
 }
 span{
-    margin-right: 6px;
+    margin-right: 9px;
     color: white;
 }
 .higher{
@@ -78,14 +91,15 @@ span{
     flex-direction: row;
     margin-bottom: 20px;
     justify-content: space-between;
+    max-width: 1250px;
 }
 .higher2{
     display: flex;
     margin-right: 30px;
-    margin-top: 70px; 
+    margin-top: 80px; 
 }
 .higher2-1{
-  width: 80px;
+  width: 90px;
   height: 37px;
   display: flex;
   margin-top: 10px;
@@ -98,7 +112,7 @@ span{
   font-size: 12px;
 }
 .higher2-2{
-    width: 100px;
+    width: 110px;
     height: 37px;
     display: flex;
     margin-top: 10px;
@@ -110,12 +124,18 @@ span{
     margin-left: 8px;
     font-size: 12px;
   }
+  .header{
+    width: 100%;
+    border-bottom: 1px dashed rgba(256, 256, 256, .2);
+  }
 .box1{
     display: flex;
     margin-top: 0px;
     margin-bottom: 0px;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 110px;
+    max-width: 1250px;
 }
 .box2{
     margin-left: 40px;
@@ -126,15 +146,16 @@ span{
 .img1{
     display: flex;
     width: 300px;
-    height: 555px;
-   
+    height: 613px;
+    margin-right: 150px;
+    margin-top: 20px;
 }
 .img2{
     display: flex;
     width: 200px;
-    height: 555px;
+    height: 700px;
     margin-right: 250px; 
-    margin-left: 100px;
+    margin-left: 0px;
 }
 .box3{
     display: flex;
@@ -148,7 +169,7 @@ span{
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-left: 530px;
+    margin-left: 470px;
     margin-bottom: 5px;
 }
 .section5-1{
@@ -160,7 +181,6 @@ span{
     display: flex; 
     margin-left: 2px;
 }
-
 .section2{
     display: flex;
     width: 480px;
@@ -196,11 +216,12 @@ p{
     justify-content: space-between;
     display: flex;
     color: rgb(105, 104, 104);
+    margin-bottom: 7px;
 }
 .progress-bar1{
     background-color: rgba(239, 35, 60, .95);
     border-radius: 30px; 
-    padding: 5px;
+    padding: 4px;
     width: 85%;
     margin: 3px;
     display: inline-block;
@@ -208,7 +229,7 @@ p{
 .progress-bar1-1{
     background-color: darkgray;
     border-radius: 30px; 
-    padding: 5px;
+    padding: 4px;
     width: 100%;
     margin: 3px;
     box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
@@ -216,38 +237,41 @@ p{
 .progress-bar2{
     background-color: rgba(239, 35, 60, .95);
     border-radius: 30px; 
-    padding: 5px;
+    padding: 4px;
     width: 95%;
     margin: 3px;
 }
 .progress-bar3{
     background-color: rgba(239, 35, 60, .95);
     border-radius: 30px; 
-    padding: 5px;
+    padding: 4px;
     width: 90%;
     margin: 3px;
 }
 .progress-bar4{
     background-color: rgba(239, 35, 60, .95);
     border-radius: 30px; 
-    padding: 5px;
+    padding: 4px;
     width: 85%;
     margin: 3px;
 }
 .w3-container{
     width: 85%;
-    padding: 5px;
+    padding: 4px;
     height: 12px;
+    margin-bottom: 7px;
 }
 .w3-container-1{
     width: 95%;
-    padding: 5px;
+    padding: 4px;
     height: 12px;
+    margin-bottom: 7px;
 }
 .w3-container-2{
     width: 90%;
-    padding: 5px;
+    padding: 4px;
     height: 12px; 
+    margin-bottom: 7px;
 }
 .section5{
     display: flex;
@@ -258,7 +282,11 @@ p{
 .section3-1{
     display: flex;
     color: red;
-    margin-top: 6px;
+    margin-top: 10px; 
+}
+.section3-1-1{
+    display: flex;
+    color: red;
 }
 .section3-2{
     display: flex; 
@@ -266,14 +294,16 @@ p{
 }
 .total{
     width: 474px;
-    margin-left: 50px;
+    margin-left: 160px;
 }
 .box6{
     justify-content: center; 
     align-items: center;
-    margin-left: 510px;
+   display: flex;
     margin-bottom: 30px;
 }
+
+
 .box7{
 display: flex;
 }
@@ -294,7 +324,7 @@ button{
     height: 125px;
     background-color: white;
     margin-right: 200px; 
-   border: 1px solid rgba(239, 35, 60, .95);
+    border: 1px solid rgba(239, 35, 60, .95);
 }
 i{
     font-size: 50px;
